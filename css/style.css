@@ -156,10 +156,10 @@ body {
 /* SITE-HERO */
 .site-hero {
   padding-top: 132px;
-  padding-bottom: 150px;
+  padding-bottom: 140px;
   background-image: url("../img/hero-bg.jpg");
   background-repeat: no-repeat;
-  background-position: calc(50% + 725px) 130px;
+  background-position: calc(50% + 725px) 200px;
 }
 
 .site-hero__container {
