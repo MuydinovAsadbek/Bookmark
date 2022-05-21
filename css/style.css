@@ -1,0 +1,247 @@
+:root {
+  --text-color: #fff;
+  --primary-color: #242A45;
+  --button-color: #5267DF;
+  --hover-color:#8B6BB3;
+}
+
+/* GLOBAL STYLE */
+
+* {
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: 3px dashed var(--button-color);
+  outline-offset: 3px;
+}
+
+*::before,
+ ::after {
+   box-sizing: border-box;
+ }
+
+html {
+  height: 100%;
+  scroll-behavior: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: 'Rubik', 'Arial', sans-serif;
+  font-weight: 400;
+  background-color: var(--text-color);
+}
+
+/* BUTTON */
+.button {
+  display: inline-block;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+/* CONTAINER */
+.container {
+  width: 100%;
+  max-width: 1144px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* SITE-HEADER */
+.site-header {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.site-header__container {
+  display: flex;
+  align-items: center;
+}
+
+.site-header__site-logo-link {
+  display: inline-block;
+  margin-right: auto;
+  transition: opacity 0.3s ease;
+}
+
+.site-header__site-logo-link:hover {
+  opacity: 0.8;
+}
+
+.site-header__site-logo-link:active {
+  opacity: 0.6;
+}
+
+.site-header__site-logo {
+  width: 150px;
+  height: 25px;
+  display: block;
+}
+
+.sitenav {
+  display: flex;
+  align-items: center;
+}
+
+.sitenav__list {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  margin-left: 35px;
+  margin-right: 48px;
+  list-style: none;
+}
+
+.sitenav__item:not(:last-child) {
+  margin-right: 44px;
+}
+
+.sitenav__link {
+  display: inline-block;
+  font-size: 13px;
+  padding: 3px;
+  line-height: 17px;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--primary-color);
+  transition: color 0.3s ease;
+}
+
+.sitenav__link:hover {
+  color: var(--hover-color);
+  border-bottom: 1px solid var(--hover-color);
+}
+
+.sitenav__orange-btn {
+  padding: 12px 34px;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 1.5px;
+  background: #FA5959;
+  box-shadow: 0px 8px 8px -4px rgba(73, 93, 207, 0.20012);
+  color: var(--text-color);
+  border: 1px solid transparent;
+  transition: background-color 0.4s ease;
+}
+
+.sitenav__orange-btn:hover {
+  background-color: transparent;
+  color: var(--hover-color);
+  border: 1px solid #2BD0D0;
+}
+
+
+/* MAIN-CONTENT */
+.main-content {
+  flex-grow: 1;
+}
+
+
+/* SITE-HERO */
+.site-hero {
+  padding-top: 132px;
+  padding-bottom: 150px;
+  background-image: url("../img/hero-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: calc(50% + 725px) 130px;
+}
+
+.site-hero__container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.site-hero__info-block {
+  max-width: 540px;
+}
+
+.site-hero__heading {
+  display: inline-block;
+  margin: 0;
+  margin-bottom: 24px;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 52px;
+  letter-spacing: -0.15px;
+  color: var(--primary-color);
+}
+
+.site-hero__text {
+  margin: 0;
+  margin-bottom: 32px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  color: var(--primary-color);
+}
+
+.site-hero__block-links {
+  display: flex;
+  align-items: center;
+}
+
+.site-hero__button-white {
+  padding: 10px 24px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0.25px;
+  background: #F7F7F7;
+  color: var(--primary-color);
+  box-shadow: 0px 8px 8px -4px rgba(73, 93, 207, 0.20012);
+  border: 1px solid transparent;
+  transition: border 0.3s ease;
+}
+
+.site-hero__button-white:hover {
+  border: 1px solid var(--button-color);
+  color: var(--button-color);
+}
+
+.site-hero__button-blue {
+  padding: 10px 24px;
+  margin-right: 16px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0.25px;
+  background-color:  var(--button-color);
+  color: var(--text-color);
+  box-shadow: 0px 8px 8px -4px rgba(73, 93, 207, 0.20012);
+  border: 1px solid transparent;
+  transition: background-color 0.3s ease;
+}
+
+.site-hero__button-blue:hover {
+  background-color: transparent;
+  color: var(--button-color);
+  border: 1px solid var(--button-color);
+}
+
+/* SITE-HERO__IMG */
+.site-hero__img {
+  position: absolute;
+  top: -67px;
+  left: 605px;
+  width: 578px;
+  height: 385px;
+  display: block;
+  object-fit: cover;
+}
