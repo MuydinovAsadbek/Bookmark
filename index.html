@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,29 +16,30 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
- <!-- SITE-HEADER -->
+  <!-- SITE-HEADER -->
   <header class="site-header">
     <div class="site-header__container container">
       <a href="#" class="site-header__site-logo-link">
         <img src="img/logo.svg" alt="site logo" class="site-header__site-logo" width="150" height="25">
       </a>
-    <nav class="site-header__sitenav sitenav">
-    <ul class="sitenav__list">
-      <li class="sitenav__item">
-        <a href="#" class="sitenav__link">Features</a>
-      </li>
-      <li class="sitenav__item">
-        <a href="#" class="sitenav__link">Pricing</a>
-      </li>
-      <li class="sitenav__item">
-        <a href="#" class="sitenav__link">Contact</a>
-      </li>
-    </ul>
-    <a href="#" class="sitenav__orange-btn button">Login</a>
-    </nav>
-  </div>
+      <nav class="site-header__sitenav sitenav">
+        <ul class="sitenav__list">
+          <li class="sitenav__item">
+            <a href="#" class="sitenav__link">Features</a>
+          </li>
+          <li class="sitenav__item">
+            <a href="#" class="sitenav__link">Pricing</a>
+          </li>
+          <li class="sitenav__item">
+            <a href="#" class="sitenav__link">Contact</a>
+          </li>
+        </ul>
+        <a href="#" class="sitenav__orange-btn button">Login</a>
+      </nav>
+    </div>
   </header>
 
 
@@ -47,19 +49,179 @@
     <!-- SITE-HERO -->
     <section class="main-content__site-hero site-hero">
       <div class="site-hero__container container">
-      <div class="site-hero__info-block">
-      <h1 class="site-hero__heading">A Simple Bookmark Manager</h1>
-      <p class="site-hero__text">A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.</p>
-      <div class="site-hero__block-links">
-        <a href="#" class="site-hero__button site-hero__button-blue button">Get it on Chrome</a>
-        <a href="#" class="site-hero__button site-hero__button-white button">Get it on Chrome</a>
-      </div>
-      </div>
-      <img src="img/hero-img.svg" alt="hero img" class="site-hero__img" width="578" height="485">
+        <div class="site-hero__info-block">
+          <h1 class="site-hero__heading">A Simple Bookmark Manager</h1>
+          <p class="site-hero__text">A clean and simple interface to organize your favourite websites. Open a new
+            browser tab and see your sites load instantly. Try it for free.</p>
+          <div class="site-hero__block-links">
+            <a href="#" class="site-hero__button site-hero__button-blue button">Get it on Chrome</a>
+            <a href="#" class="site-hero__button site-hero__button-white button">Get it on Chrome</a>
+          </div>
+        </div>
+        <img src="img/hero-img.svg" alt="hero img" class="site-hero__img" width="578" height="485">
       </div>
     </section>
 
+
+    <!-- SECTION-FEATURE -->
+    <section class="main-content__section-feature feature">
+      <div class="feature__container container">
+        <div class="feature__info-block">
+          <h2 class="feature__title">Features</h2>
+          <p class="feature__text">Our aim is to make it quick and easy for you to access your favourite websites. Your
+            bookmarks sync between your devices so you can access them on the go.</p>
+        </div>
+        <ul class="feature__list">
+
+          <li class="feature__item">
+            <a class="feature__link" href="#">Simple Bookmarking</a>
+          </li>
+
+          <li class="feature__item">
+            <a class="feature__link" href="#">Speedy Searching</a>
+          </li>
+
+          <li class="feature__item">
+            <a class="feature__link" href="#">Easy Sharing</a>
+          </li>
+
+        </ul>
+      </div>
+    </section>
+
+
+    <!-- FEATURE-INFO -->
+    <section class="main-content__section-feature-info feature-info">
+      <div class="feature-info__container container">
+        <img class="feature-info__img" src="img/feature_img.svg" alt="img" width="536" height="346">
+        <div class="feature-info__block">
+          <h2 class="feature-info__title">Bookmark in one click</h2>
+          <p class="feature-info__text">Organize your bookmarks however you like. Our simple drag-and-drop interface
+            gives you complete control over how you manage your favourite sites.</p>
+          <a class="feature-info__btn button" href="#">More Info</a>
+        </div>
+
+
+      </div>
+    </section>
+
+
+    <!-- SECTION-EXTENSION -->
+    <section class="main-content__extension section-extension">
+      <div class="section-extension__container container">
+        <div class="section-extension__text-block">
+          <h3 class="section-extension__title">Download the extension</h3>
+          <p class="section-extension__text">We’ve got more browsers in the pipeline. Please do let us know if you’ve
+            got a favourite you’d like us to prioritize.</p>
+        </div>
+
+        <!-- LIST -->
+        <ul class="section-extension__list extension-list">
+
+          <li class="extension-list__item">
+            <img class="extension-list__img" src="img/chrome-icon.svg" alt="chrome icon">
+            <div class="extension-list__text-block">
+              <h2 class="extension-list__title">Add to Chrome</h2>
+              <p class="extension-list__text">Minimum version 62</p>
+            </div>
+            <a href="" class="extension-list__btn button">Add & Install Extension</a>
+          </li>
+
+          <li class="extension-list__item">
+            <img class="extension-list__img" src="img/firefox-icon.svg" alt="firefox icon">
+            <div class="extension-list__text-block">
+              <h2 class="extension-list__title">Add to Firefox</h2>
+              <p class="extension-list__text">Minimum version 55</p>
+            </div>
+            <a href="" class="extension-list__btn button">Add & Install Extension</a>
+          </li>
+
+          <li class="extension-list__item">
+            <img class="extension-list__img" src="img/opera-icon.svg" alt="chrome img">
+            <div class="extension-list__text-block">
+              <div class="extension-list__text-block">
+                <h2 class="extension-list__title">Add to Opera</h2>
+                <p class="extension-list__text">Minimum version 46</p>
+              </div>
+            </div>
+            <a href="" class="extension-list__btn button">Add & Install Extension</a>
+          </li>
+        </ul>
+
+      </div>
+    </section>
+
+
+    <!-- SECTION-QUESTIONS -->
+    <section class="main-content__section-questions section-questions">
+      <div class="section-questions__container container">
+        <div class="section-questions__block">
+          <h2 class="section-questions__title">Frequently Asked Questions</h2>
+          <p class="section-questions__text">Here are some of our FAQs. If you have any other questions <br> you’d like answered please feel free to email us.</p>
+        </div>
+
+        <!-- ACARDION -->
+        <div class="acardion">
+
+          <div class="acardion__item">
+            <div class="acardion__block">
+              <span class="acardion__inner">
+                <h3 class="acardion__title">What is Bookmark?</h3>
+                <img class="acardion__icon" src="img/blue-arrow.svg" alt="acardion icon" width="16" height="8">
+              </span>
+            </div>
+            <div class="acardion-item__bottom-text-block text-block">
+              <p class="text-block__text">Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa,
+                ultricies non ligula. Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.</p>
+            </div>
+          </div>
+
+          <div class="acardion__item">
+            <div class="acardion__block">
+              <span class="acardion__inner">
+                <h3 class="acardion__title">What is Bookmark?</h3>
+                <img class="acardion__icon" src="img/blue-arrow.svg" alt="acardion icon" width="16" height="8">
+              </span>
+            </div>
+            <div class="acardion-item__bottom-text-block text-block">
+              <p class="text-block__text">Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa,
+                ultricies non ligula. Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.</p>
+            </div>
+          </div>
+
+          <div class="acardion__item">
+            <div class="acardion__block">
+              <span class="acardion__inner">
+                <h3 class="acardion__title">What is Bookmark?</h3>
+                <img class="acardion__icon" src="img/blue-arrow.svg" alt="acardion icon" width="16" height="8">
+              </span>
+            </div>
+            <div class="acardion-item__bottom-text-block text-block">
+              <p class="text-block__text">Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa,
+                ultricies non ligula. Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.</p>
+            </div>
+          </div>
+
+          <div class="acardion__item">
+            <div class="acardion__block">
+              <span class="acardion__inner">
+                <h3 class="acardion__title">What is Bookmark?</h3>
+                <img class="acardion__icon" src="img/blue-arrow.svg" alt="acardion icon" width="16" height="8">
+              </span>
+            </div>
+            <div class="acardion-item__bottom-text-block text-block">
+              <p class="text-block__text">Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa,
+                ultricies non ligula. Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      </section>
   </main>
 
+  <script src="js/main.js"></script>
 </body>
+</body>
+
 </html>
