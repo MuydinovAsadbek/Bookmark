@@ -6,7 +6,6 @@
 }
 
 /* GLOBAL STYLE */
-
 * {
   box-sizing: border-box;
 }
@@ -293,11 +292,13 @@ body {
   border-bottom: 4px solid transparent;
 }
 
-.feature__item.active{
+.feature__item.tabs-item-active{
   border-color: var(--hover-color);
-
 }
 
+.feature__item.tabs-item-active .feature__link{
+  color: var(--primary-color);
+}
 
 .feature__link {
   display: inline-block;
