@@ -48,7 +48,7 @@
     <!-- SITE-HERO -->
     <section class="main-content__site-hero site-hero">
       <div class="site-hero__container container">
-        <div class="site-hero__info-block">
+        <div class="site-hero__info-block info-block--active">
           <h1 class="site-hero__heading">A Simple Bookmark Manager</h1>
           <p class="site-hero__text">A clean and simple interface to organize your favourite websites. Open a new
             browser tab and see your sites load instantly. Try it for free.</p>
@@ -73,15 +73,15 @@
         <ul class="feature__list">
 
           <li class="feature__item tabs-item-active">
-            <a class="feature__link js-tab-link" href="#">Simple Bookmarking</a>
+            <a class="feature__link js-tab-link js-tab-link--active" href="#">Simple Bookmarking</a>
           </li>
 
           <li class="feature__item">
-            <a class="feature__link js-tab-link" href="#">Speedy Searching</a>
+            <a class="feature__link js-tab-link js-tab-link--search" href="#">Speedy Searching</a>
           </li>
 
           <li class="feature__item">
-            <a class="feature__link js-tab-link" href="#">Easy Sharing</a>
+            <a class="feature__link js-tab-link js-tab-link--share" href="#">Easy Sharing</a>
           </li>
 
         </ul>
@@ -89,12 +89,39 @@
     </section>
 
 
-    <!-- FEATURE-INFO -->
-    <section class="main-content__section-feature-info feature-info">
+    <!-- FEATURE-INFO-CLICK -->
+    <section class="feature-info feature-info-none feature-info--active main-content-js">
       <div class="feature-info__container container">
         <img class="feature-info__img" src="img/feature_img.svg" alt="img" width="536" height="346">
         <div class="feature-info__block">
           <h2 class="feature-info__title">Bookmark in one click</h2>
+          <p class="feature-info__text">Organize your bookmarks however you like. Our simple drag-and-drop interface
+            gives you complete control over how you manage your favourite sites.</p>
+          <a class="feature-info__btn button" href="#">More Info</a>
+        </div>
+      </div>
+    </section>
+
+
+   <!-- FEATURE-INFO-SEARCH -->
+   <section class="feature-info feature-info-search feature-info-none">
+    <div class="feature-info__container container">
+      <img class="feature-info__img" src="img/feature_img.svg" alt="img" width="536" height="346">
+      <div class="feature-info__block">
+        <h2 class="feature-info__title">Asadbek in one click</h2>
+        <p class="feature-info__text">Organize your bookmarks however you like. Our simple drag-and-drop interface
+          gives you complete control over how you manage your favourite sites.</p>
+        <a class="feature-info__btn button" href="#">More Info</a>
+      </div>
+    </div>
+  </section>
+
+     <!-- FEATURE-INFO-SEARCH -->
+     <section class="feature-info feature-info-search feature-info-none">
+      <div class="feature-info__container container">
+        <img class="feature-info__img" src="img/feature_img.svg" alt="img" width="536" height="346">
+        <div class="feature-info__block">
+          <h2 class="feature-info__title">Lorem ipsum dolor sit amet.</h2>
           <p class="feature-info__text">Organize your bookmarks however you like. Our simple drag-and-drop interface
             gives you complete control over how you manage your favourite sites.</p>
           <a class="feature-info__btn button" href="#">More Info</a>

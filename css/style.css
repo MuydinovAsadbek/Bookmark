@@ -277,6 +277,7 @@ body {
   color: rgba(36, 42, 69, 0.5);
 }
 
+
 /* FEATURE LIST */
 .feature__list {
   display: flex;
@@ -292,11 +293,11 @@ body {
   border-bottom: 4px solid transparent;
 }
 
-.feature__item.tabs-item-active{
+.tabs-item-active{
   border-color: var(--hover-color);
 }
 
-.feature__item.tabs-item-active .feature__link{
+.tabs-item-active .feature__link{
   color: var(--primary-color);
 }
 
@@ -341,6 +342,17 @@ body {
   width: 536px;
   height: 346px;
 }
+
+
+.feature-info-none {
+  display: none;
+}
+
+.feature-info--active {
+  display: block;
+}
+
+
 
 /* INFO BLOCK */
 .feature-info__block {
